@@ -19,6 +19,6 @@ exports.createPages = async ({ actions }) => {
   })
   createRedirect({
     fromPath: "/packages/*",
-    toPath: "/plugins/*",
+    toPath: "/plugins1/*",
   })
 }
